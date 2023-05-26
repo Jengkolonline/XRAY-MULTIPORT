@@ -25,7 +25,8 @@ ____________________________________________
 | OHP OpenVPN             |  8787          |
 | OpenVPN TCP             |  1194          |
 | OpenVPN UDP             |  2200          |
-| Nginx                   |   81           |
+| Nginx                   |  81            |
+| Stunnel4                |  222, 777      |
 | UDP                     |  54-65535      |
 | DNS Server              |  443, 53, 2222 |
 | DNS Client              |  443, 88       |
