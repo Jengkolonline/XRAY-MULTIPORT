@@ -1,14 +1,25 @@
 # JENGKOL ONLINE VPN
 
+# SECRIPT INI BERLISENSI BISA LANGSUNG CHAT KE LINK DI BAWAH
+
 # Autoscript VPS v.2
 ## _Jengkolonline, Autoscript ini dapat digunakan oleh Debian 10/Ubuntu 20.04 (LTS)_
 
 ### Contact admin [jengkolonline](https://wa.me/6282372139631/?text=Saya+ingin+beli+sc)
 
-### Installer Script
+### Update & Upgrade First Your VPS for Debian 10 & 11
 ```
-Cat dulu
+apt-get update && apt-get upgrade -y && update-grub && sleep 2 && reboot
 ```
+### Update & Upgrade First Your VPS for Ubuntu 18.04 & 20.04
+```
+apt-get update && apt-get upgrade -y && apt dist-upgrade -y && update-grub && sleep 2 && reboot
+```
+### Instalasi Script
+```
+sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/Jengkolonline/XRAY-MULTIPORT/main/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh"
+```
+
 
 ____________________________________________
 |        SERVICE          |      PORT      |
